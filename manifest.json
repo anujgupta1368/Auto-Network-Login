@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Auto Network Login",
+    "description": "Made by Anuj Gupta",
+    "version": "1.0",
+    "content_scripts": [
+        { 
+        "matches": ["*://172.22.2.6/connect/PortalMain*"],
+        "js": ["index.js"]
+        }
+        ],
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup":"index.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "tabs",
+        "*://erp.lnmiit.ac.in/mis/*"
+    ]
+}
