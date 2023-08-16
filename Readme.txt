@@ -5,4 +5,4 @@ Select load unpacked option
 Select Auto Network Login folder from your local directory
 Open Login portal in your current tab of chrome
 Select the extension
-And Boom! You are loggef in
+And Boom! You are logged in
