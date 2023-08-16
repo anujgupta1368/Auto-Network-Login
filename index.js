@@ -1,7 +1,7 @@
 var execute = setInterval(function myFn(){
     if(document.getElementById('LoginUserPassword_auth_password')  != null){
-        document.getElementById('LoginUserPassword_auth_username').value = '20ucs243';
-        document.getElementById('LoginUserPassword_auth_password').value = 'DfaT1487*';
+        document.getElementById('LoginUserPassword_auth_username').value = 'Username';
+        document.getElementById('LoginUserPassword_auth_password').value = 'Password';
         document.getElementById('UserCheck_Login_Button_span').click();        
     }    
 
