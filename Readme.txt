@@ -1,4 +1,5 @@
 Unzip the folder Auto Network Login
+Add username and password in index.js file
 Go to manage your chrome extension
 Click on developer mode on the top right side
 Select load unpacked option
